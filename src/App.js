@@ -1,23 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import SiteHeader from './components/SiteHeader';
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-200 antialiased">
-      <header className="bg-gray-900 px-4 py-3 antialiased items-center flex justify-between">
-        <div className="flex items-center">
-          <i className="material-icons pr-2 text-indigo-500">beach_access</i>
-          <span className="text-white text-lg font-bold">Work</span>
-          <span className="text-indigo-500 text-lg font-bold">cation</span>
-        </div>
-        <div className="flex">
-          <button>
-            <i className="h-6 w-6 fill-current text-gray-500 material-icons text-white">
-              menu
-            </i>
-          </button>
-        </div>
-      </header>
+      <SiteHeader />
       <section className="bg-gray-800 px-4 py-3 flex justify-between">
         <div className="relative flex items-center">
           <div className="absolute inset-y-0 left-0 px-2 py-2">
