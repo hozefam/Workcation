@@ -2,31 +2,13 @@ import React from 'react';
 import './App.css';
 
 import SiteHeader from './components/SiteHeader';
+import SearchFilters from './components/SearchFilters';
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-200 antialiased">
       <SiteHeader />
-      <section className="bg-gray-800 px-4 py-3 flex justify-between">
-        <div className="relative flex items-center">
-          <div className="absolute inset-y-0 left-0 px-2 py-2">
-            <i className="material-icons h-6 w-6 fill-current text-gray-600">
-              search
-            </i>
-          </div>
-          <input
-            className="bg-gray-900 text-white rounded-lg px-10 py-2 pr-3 focus:text-gray-900 focus:bg-white focus:outline-none"
-            type="text"
-            placeholder="Search by keywords"
-          />
-        </div>
-        <button className="inline-flex hover:bg-gray-600 focus:outline-none focus:shadow-outline bg-gray-700 rounded-lg shadow px-4">
-          <i className="material-icons fill-current text-gray-500">
-            filter_list
-          </i>
-          <span className="text-white font-medium ml-2">Filters</span>
-        </button>
-      </section>
+      <SearchFilters />
       <main className="px-4 py-6 bg-gray-200">
         <h3 className="text-gray-900 text-xl">Los Angeles</h3>
         <p className="text-gray-600">

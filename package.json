@@ -9,6 +9,9 @@
     "react-scripts": "3.0.1",
     "tailwindcss": "^1.0.5"
   },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.0"
+  },
   "scripts": {
     "start": "npm run tailwind:css && react-scripts start",
     "build": "npm run tailwind:css && react-scripts build",

@@ -15,7 +15,7 @@ const SiteHeader = () => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="px-2"
+            className="px-2 focus:outline-none"
           >
             <i className="h-6 w-6 fill-current text-gray-500 material-icons hover:text-white text-white">
               {!isOpen ? 'menu' : 'close'}
